@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.MaterialTest" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+
+
+    </style>
+
+
+
+    <!-- 自定义 PopupMenu 样式 -->
+    <style name="CustomPopupMenu" parent="Widget.Material3.PopupMenu">
+        <!--表示将该样式中所有弹出菜单文本的颜色设置为 @color/black（你需要在 colors.xml 中定义这个颜色，通常是黑色）-->
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="FruitActivityTheme" parent="Base.Theme.MaterialTest">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+
+    </style>
+
+
+
+
+
+
+
+</resources>
